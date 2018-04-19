@@ -1,0 +1,5 @@
+var jsonpathplus = require( 'jsonpath-plus' )
+var spec_ex_09 = require( '../test/assets/src/spec_ex_09.json' )
+var spec_ex_09a = require( '../test/assets/src/spec_ex_09a.json' )
+var b0 = jsonpathplus( { json: spec_ex_09a, path: '$._graph[?(@._id=="_:b0")]' } )
+console.log( b0 )

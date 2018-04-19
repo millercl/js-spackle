@@ -1,0 +1,15 @@
+coverage/
+gulpfile.js
+npm-debug.log
+node_modules/
+test/
+.gitignore
+.jscsrc
+.jshintrc
+.npmignore
+.npmrc
+.nyc_output
+*~
+*.swp
+*.swo
+\#*
